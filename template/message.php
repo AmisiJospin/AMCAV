@@ -1,0 +1,55 @@
+<?php 
+
+$hdr = '<style>
+#logo{
+width: 239px;
+height: 143px;
+position:absolute; z-index:100; top:1px;
+background: url(\'../image/logo.png\') no-repeat;
+background-size:100%;
+margin-top:5px;
+}
+#slogan{
+	float: right; margin:0;
+	width:80%; height: 100px;
+}
+
+#titre{
+	width: 100%; margin:0;
+	height: 120px; 
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6));
+	background: -moz-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6));
+	background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6));
+	background: -ms-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6));
+}
+
+#titre, #titre h1, .search{
+	display:inline-block;
+}
+
+#titre h1{
+float:left; color: #eee;
+padding:0; margin:0; width: 690px;
+}
+h1, .h{font-style:;
+font-family: \'Calligrapher\', Arial; text-shadow: 2px 2px 3px #fff;
+}
+.h{
+ padding:3px;
+ margin:0; background: rgba(30,144,255,.7);
+}
+</style>	
+	
+	<div id="haut">
+	<div class="logos">
+	<div id="logo"><img src=\'image/logo.png\' />
+	</div>
+	</div>
+	<div id="slogan">
+	<div id="titre">
+	<h1>AMCAV</h1>
+	</div>
+	<p class="h">Assistance aux vulnérables</p>
+	</div>
+	<div style="clear:both;"></div>
+</div>';

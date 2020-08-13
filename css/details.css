@@ -1,0 +1,157 @@
+/*div {  height: 150px;  width: 150px; } 
+.container {  
+	-moz-perspective: 500px;  border: 1px solid black; 
+} 
+.fl{
+	-moz-transform-style: preserve-3d ;  
+	-moz-transform: rotateY(50deg);  background-color: blue; 
+}
+ .img_fl { 
+	-moz-transform-origin: top left;  
+	-moz-transform: rotateX(40deg); 
+	background-color: lime;
+	} */
+
+#contenu h1
+{
+	padding-top:0px;
+}
+
+#contenu .banner
+{
+	margin-top:2px;
+	line-height:8px;
+}
+
+#container{
+perspective: 500px;
+-moz-perspective: 700px;
+-ms-perspective: 500px;
+-webkit-perspective: 500px;
+}
+
+.fl{
+float:left;  transform: rotateY(50deg); 
+-moz-transform: rotateY(50deg); 
+-ms-transform: rotateY(50deg); 
+-webkit-transform: rotateY(50deg); 
+}
+.img_fl{box-shadow: 1px 1px 3px #000; border-radius: 5px;}
+
+footer, footer a{
+text-align:center;color: #555;
+}
+
+/******** SECTION *************/
+section{
+font-size: 15px;
+}
+section, a{
+font-family: Heveltica, Arial;
+}
+a{ font-weight:bold;
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+
+/*font-size: 20px;*/}
+
+.mail a
+{
+	text-decoration:none;
+	font-size:16px;
+	font-weight:normal;
+}
+
+label
+{
+	font-family:'Trebuchet MS',arial, verdana;
+	font-size:18px;
+	margin-top:5px;
+}
+
+
+/******* CONTACTS ***************/
+.btn {
+background: #00bfff;
+background: linear-gradient(#00bfff, #1e90ff);
+background: -moz-linear-gradient(#00bfff, #1e90ff);
+background: -ms-linear-gradient(#00bfff, #1e90ff);
+background: -webkit-linear-gradient(#00bfff, #1e90ff);
+box-shadow: 0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15),
+	0 1px 0 rgba(255,255,255,.7) inset,
+	0 -1px 0 hsl(210,100%,32%) inset,
+	0 -2px 0 hsl(210,100%,38%) inset,
+	0 -3px 0 hsl(210,100%,44%) inset,
+	0 -4px 0 hsl(210,100%,50%) inset,
+	0 -5px 0 hsl(210,100%,60%) inset;
+  float: right;
+  display: block;
+  color: #ffffff;
+  font: 18px/20px 'Roboto Condensed', sans-serif;
+  padding: 5px 17px 6px;
+}
+.btn:hover {
+  color: #ffffff;
+}
+
+
+h3 {
+  font-size: 36px;
+  line-height: 72px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+h3.head__1 {
+  margin-bottom: 12px;
+  padding-top: 15px;
+}
+
+.head
+{
+	font-size:22px;
+	font-family:'Century Gothic', Arial, 'verdana';
+	margin:3px 0 0 0;
+	font-weight:bold;
+
+}
+.grid_5{float:left; width: 85%; padding: 1px; margin-left:10px;}
+
+/****************** ONGLETS *****************/
+
+
+#onglets
+{
+	border:1px solid rgb(218, 190,255);
+	margin:0; background: rgb(218, 224,264);
+	box-shadow: 1px 1px 2px 1px #777 inset;
+	padding: 12px;
+}
+#lien_js{
+	margin:0; padding:0;
+	margin-top: 10px;
+	padding-left: 4px;
+	overflow-x: auto;
+}
+#lien_js li{
+	/*margin:0; padding:0;*/
+}
+#lien_js label{
+	cursor:pointer;
+}
+.panneau
+{
+	border:1px solid rgb(218, 190,255); margin:0;
+	padding: 5px 10px 5px 10px; background: rgb(218, 224,264);
+	box-shadow: 2px 2px 2px #000; border-radius: 3px 3px 0 0;
+}
+#lien_js li:hover
+{
+	box-shadow: 1px 1px 2px 1px #777 inset;
+	border:1px solid rgb(218, 190,255); /*margin:0;*/
+	/*padding: 5px 10px 5px 10px;*/
+	transition: padding 2s;
+}
