@@ -2,12 +2,13 @@
 Author: Jospin AMISSI, +25775221379, +25771362718
 Url: facebook.com/amissi.hassan
 site web: www.jospinamissi.comeze.com
+	  www.jospinamisi.herokuapp.com
 Version: 1.0.0 - 25.01.2015
 */
 
 
 
-/* la résolution pour les téléphones mobiles */
+/* la rÃ©solution pour les tÃ©lÃ©phones mobiles */
 
 @media only screen and (max-width: 600px) {
 html, head, title, footer, body, #contenu, #vision, #gauche, #page, #news, .banner, .caracter 
