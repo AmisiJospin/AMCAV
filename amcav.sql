@@ -43,3 +43,8 @@ INSERT INTO `visiteurs` (`ip`, `timestamp`) VALUES
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 DELETE FROM visiteurs WHERE id = 3;
+
+--
+-- Pierre, check this file and add a new query to JOIN table
+--
+
