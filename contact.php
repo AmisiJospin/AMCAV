@@ -16,6 +16,7 @@
 <body>
 <div id="page">
 
+<!-- including the header on this page -->
 <?php include('template/head.php');?>
 
 <section>
